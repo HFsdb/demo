@@ -24,6 +24,7 @@ public class Login {
         boolean b = loginServiceImp.login(username,password);
         if(b == true){
             return "forword:index.html";
+
         }
         return "redirect:login.html";
 
